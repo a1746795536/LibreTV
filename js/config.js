@@ -114,7 +114,1332 @@ const API_SITES = {
         api: 'https://www.example.com/api.php/provide/vod',
         name: '空内容测试源',
         adult: true
+https://blog.diggoo.xyz/feed/libretv-interface
     },
+[
+	{
+		"name": "*白嫖资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://www.kxgav.com",
+			"path": "/api/xml.php"
+		},
+		"status": true
+	},
+	{
+		"name": "新浪资源(切)",
+		"nsfw": false,
+		"api": {
+			"root": "http://api.xinlangapi.com",
+			"path": "/xinlangapi.php/provide/vod/at/xml/"
+		},
+		"status": true
+	},
+	{
+		"name": "闪电资源(切)",
+		"nsfw": false,
+		"api": {
+			"root": "http://sdzyapi.com",
+			"path": "/api.php/provide/vod/at/xml/"
+		},
+		"status": true
+	},
+	{
+		"name": "*黄AV资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://www.pgxdy.com",
+			"path": "/api/xml.php"
+		},
+		"status": true
+	},
+	{
+		"name": "*鲨鱼资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://shayuapi.com",
+			"path": "/api.php/provide/vod/at/xml/"
+		},
+		"status": true
+	},
+	{
+		"name": "光速资源(切)",
+		"nsfw": false,
+		"api": {
+			"root": "https://api.guangsuapi.com",
+			"path": "/api.php/provide/vod/at/xml/"
+		},
+		"status": true
+	},
+	{
+		"name": "*色猫资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://api.maozyapi.com",
+			"path": "/inc/api.php"
+		},
+		"status": true
+	},
+	{
+		"name": "*乐播资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://lbapi9.com",
+			"path": "/api.php/provide/vod/at/xml/"
+		},
+		"status": true
+	},
+	{
+		"name": "U酷资源(优)",
+		"nsfw": false,
+		"api": {
+			"root": "https://api.ukuapi.com",
+			"path": "/api.php/provide/vod/at/xml/"
+		},
+		"status": true
+	},
+	{
+		"name": "*淫水机资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://www.xrbsp.com",
+			"path": "/api/xml.php"
+		},
+		"status": true
+	},
+	{
+		"name": "*香奶儿资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://www.gdlsp.com",
+			"path": "/api/xml.php"
+		},
+		"status": true
+	},
+	{
+		"name": "量子资源(切)",
+		"nsfw": false,
+		"api": {
+			"root": "http://cj.lziapi.com",
+			"path": "/api.php/provide/vod/at/xml/"
+		},
+		"status": true
+	},
+	{
+		"name": "*91麻豆",
+		"nsfw": true,
+		"api": {
+			"root": "https://91md.me",
+			"path": "/api.php/provide/vod/at/xml/"
+		},
+		"status": true
+	},
+	{
+		"name": "*大地资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://dadiapi.com",
+			"path": "/api.php"
+		},
+		"status": true
+	},
+	{
+		"name": "*番号资源",
+		"nsfw": true,
+		"api": {
+			"root": "http://fhapi9.com",
+			"path": "/api.php/provide/vod/at/xml/"
+		},
+		"status": true
+	},
+	{
+		"name": "*博天堂",
+		"nsfw": true,
+		"api": {
+			"root": "http://bttcj.com",
+			"path": "/inc/sapi.php"
+		},
+		"status": true
+	},
+	{
+		"name": "*色南国资源",
+		"nsfw": false,
+		"api": {
+			"root": "https://api.sexnguon.com",
+			"path": "/api.php/provide/vod/at/xml/"
+		},
+		"status": true
+	},
+	{
+		"name": "无尽资源(切)",
+		"nsfw": true,
+		"api": {
+			"root": "https://api.wujinapi.net",
+			"path": "/api.php/provide/vod/at/xml/"
+		},
+		"status": true
+	},
+	{
+		"name": "*美少女资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://www.msnii.com",
+			"path": "/api/xml.php"
+		},
+		"status": true
+	},
+	{
+		"name": "*辣椒资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://apilj.com",
+			"path": "/api.php/provide/vod/at/xml/"
+		},
+		"status": true
+	},
+	{
+		"name": "樱花资源(切)",
+		"nsfw": false,
+		"api": {
+			"root": "https://m3u8.apiyhzy.com",
+			"path": "/api.php/provide/vod/at/xml/"
+		},
+		"status": true
+	},
+	{
+		"name": "华为吧",
+		"nsfw": false,
+		"api": {
+			"root": "https://huawei8.live",
+			"path": "/api.php/provide/vod"
+		},
+		"status": true
+	},
+	{
+		"name": "鲨鱼18+",
+		"nsfw": true,
+		"api": {
+			"root": "https://shayuapi.com",
+			"path": "/api.php/Seacms/vod"
+		},
+		"status": true
+	},
+	{
+		"name": "*富二代资源",
+		"nsfw": true,
+		"api": {
+			"root": "http://f2dcj6.com",
+			"path": "/sapi"
+		},
+		"status": true
+	},
+	{
+		"name": "索尼",
+		"nsfw": true,
+		"api": {
+			"root": "https://suoniapi.com",
+			"path": "/api.php/provide/vod/from/snm3u8/at/json/"
+		},
+		"status": true
+	},
+	{
+		"name": "光速",
+		"nsfw": false,
+		"api": {
+			"root": "https://api.guangsuapi.com",
+			"path": "/api.php/provide/vod/at/json"
+		},
+		"status": true
+	},
+	{
+		"name": "卧龙",
+		"nsfw": false,
+		"api": {
+			"root": "https://collect.wolongzyw.com",
+			"path": "/api.php/provide/vod/at/json"
+		},
+		"status": true
+	},
+	{
+		"name": "光速云",
+		"nsfw": false,
+		"api": {
+			"root": "https://api.guangsuapi.com",
+			"path": "/api.php/provide/vod/at/json/"
+		},
+		"status": true
+	},
+	{
+		"name": "新浪",
+		"nsfw": false,
+		"api": {
+			"root": "https://api.xinlangapi.com",
+			"path": "/xinlangapi.php/provide/vod/at/json"
+		},
+		"status": true
+	},
+	{
+		"name": "速播",
+		"nsfw": false,
+		"api": {
+			"root": "https://subocaiji.com",
+			"path": "/api.php/provide/vod/at/json"
+		},
+		"status": true
+	},
+	{
+		"name": "无尽",
+		"nsfw": true,
+		"api": {
+			"root": "https://api.wujinapi.me",
+			"path": "/api.php/provide/vod/from/wjm3u8/at/json/"
+		},
+		"status": true
+	},
+	{
+		"name": "量子",
+		"nsfw": false,
+		"api": {
+			"root": "https://cj.lziapi.com",
+			"path": "/api.php/provide/vod/from/lzm3u8/"
+		},
+		"status": true
+	},
+	{
+		"name": "U酷",
+		"nsfw": false,
+		"api": {
+			"root": "https://api.ukuapi.com",
+			"path": "/api.php/provide/vod/at/json"
+		},
+		"status": true
+	},
+	{
+		"name": "金鹰",
+		"nsfw": false,
+		"api": {
+			"root": "https://jyzyapi.com",
+			"path": "/provide/vod/at/json"
+		},
+		"status": true
+	},
+	{
+		"name": "非凡",
+		"nsfw": false,
+		"api": {
+			"root": "http://cj.ffzyapi.com",
+			"path": "/api.php/provide/vod/at/json/"
+		},
+		"status": true
+	},
+	{
+		"name": "🚁福利采集🚁",
+		"nsfw": true,
+		"api": {
+			"root": "https://155api.com",
+			"path": "/api.php/provide/vod/at/xml"
+		},
+		"status": true
+	},
+	{
+		"name": "成人24",
+		"nsfw": true,
+		"api": {
+			"root": "http://lbapiby.com",
+			"path": "/api.php/provide/vod/at/xml"
+		},
+		"status": true
+	},
+	{
+		"name": "优质资源库",
+		"nsfw": false,
+		"api": {
+			"root": "http://api.1080zyku.com",
+			"path": "/inc/api.php/provide/vod"
+		},
+		"status": true
+	},
+	{
+		"name": "卧龙资源",
+		"nsfw": false,
+		"api": {
+			"root": "http://collect.wolongzyw.com",
+			"path": "/api.php/provide/vod"
+		},
+		"status": true
+	},
+	{
+		"name": "艾旦影视",
+		"nsfw": false,
+		"api": {
+			"root": "http://lovedan.net",
+			"path": "/api.php/provide/vod"
+		},
+		"status": true
+	},
+	{
+		"name": "光速资源",
+		"nsfw": false,
+		"api": {
+			"root": "http://api.guangsuapi.com",
+			"path": "/api.php/provide/vod/from/gsm3u8"
+		},
+		"status": true
+	},
+	{
+		"name": "量子資源",
+		"nsfw": false,
+		"api": {
+			"root": "http://cj.lziapi.com",
+			"path": "/api.php/provide/vod/from/lzm3u8"
+		},
+		"status": true
+	},
+	{
+		"name": "樱花资源网",
+		"nsfw": false,
+		"api": {
+			"root": "http://m3u8.apiyhzy.com",
+			"path": "/api.php/provide/vod"
+		},
+		"status": true
+	},
+	{
+		"name": "紅牛資源",
+		"nsfw": false,
+		"api": {
+			"root": "http://hongniuzy2.com",
+			"path": "/api.php/provide/vod/from/hnm3u8"
+		},
+		"status": true
+	},
+	{
+		"name": "森林资源",
+		"nsfw": true,
+		"api": {
+			"root": "http://slapibf.com",
+			"path": "/api.php/provide/vod"
+		},
+		"status": true
+	},
+	{
+		"name": "奥斯卡资源网",
+		"nsfw": true,
+		"api": {
+			"root": "http://aosikazy.com",
+			"path": "/api.php/provide/vod"
+		},
+		"status": true
+	},
+	{
+		"name": "金鹰资源",
+		"nsfw": false,
+		"api": {
+			"root": "http://jyzyapi.com",
+			"path": "/provide/vod/from/jinyingm3u8"
+		},
+		"status": true
+	},
+	{
+		"name": "百度资源",
+		"nsfw": false,
+		"api": {
+			"root": "http://api.apibdzy.com",
+			"path": "/api.php/provide/vod"
+		},
+		"status": true
+	},
+	{
+		"name": "閃電資源",
+		"nsfw": false,
+		"api": {
+			"root": "http://sdzyapi.com",
+			"path": "/api.php/provide/vod/from/sdm3u8"
+		},
+		"status": true
+	},
+	{
+		"name": "U酷资源",
+		"nsfw": false,
+		"api": {
+			"root": "http://api.ukuapi.com",
+			"path": "/api.php/provide/vod"
+		},
+		"status": true
+	},
+	{
+		"name": "闪电资源",
+		"nsfw": false,
+		"api": {
+			"root": "http://sdzyapi.com",
+			"path": "/api.php/provide/vod"
+		},
+		"status": true
+	},
+	{
+		"name": "老色逼资源|AV",
+		"nsfw": true,
+		"api": {
+			"root": "https://apilsbzy1.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "天翼|点播",
+		"nsfw": false,
+		"api": {
+			"root": "https://www.911ysw.top",
+			"path": "/tianyi.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "奶香香|AV",
+		"nsfw": true,
+		"api": {
+			"root": "https://Naixxzy.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "360┃秒播┃采集",
+		"nsfw": false,
+		"api": {
+			"root": "https://360zy.com",
+			"path": "/api.php/provide/vod"
+		},
+		"status": true
+	},
+	{
+		"name": "奥斯卡资源网",
+		"nsfw": true,
+		"api": {
+			"root": "https://aosikazy.com",
+			"path": "/api.php/provide/vod"
+		},
+		"status": true
+	},
+	{
+		"name": "速博|点播",
+		"nsfw": false,
+		"api": {
+			"root": "https://subocaiji.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "虎牙资源",
+		"nsfw": false,
+		"api": {
+			"root": "https://www.huyaapi.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "草榴资源|AV",
+		"nsfw": true,
+		"api": {
+			"root": "https://www.caoliuzyw.com",
+			"path": "/api.php/prodao/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "ikun|点播",
+		"nsfw": false,
+		"api": {
+			"root": "https://ikunzyapi.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "虎牙|点播",
+		"nsfw": false,
+		"api": {
+			"root": "https://www.huyaapi.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "📛挺好┃光速.云播",
+		"nsfw": false,
+		"api": {
+			"root": "https://api.guangsuapi.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "极速|点播",
+		"nsfw": false,
+		"api": {
+			"root": "https://jszyapi.com",
+			"path": "/api.php/provide/vod"
+		},
+		"status": true
+	},
+	{
+		"name": "91麻豆|AV",
+		"nsfw": true,
+		"api": {
+			"root": "https://91md.me",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "📛挺好┃量子",
+		"nsfw": false,
+		"api": {
+			"root": "https://cj.lziapi.com",
+			"path": "/api.php/provide/vod/at/xml/"
+		},
+		"status": true
+	},
+	{
+		"name": "丫丫|点播",
+		"nsfw": false,
+		"api": {
+			"root": "https://cj.yayazy.net",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "暴风|点播",
+		"nsfw": true,
+		"api": {
+			"root": "https://bfzyapi.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "色南国资源",
+		"nsfw": false,
+		"api": {
+			"root": "https://api.sexnguon.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "索尼资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://suoniapi.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "玉兔资源|AV",
+		"nsfw": true,
+		"api": {
+			"root": "https://apiyutu.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "番号资源|AV",
+		"nsfw": true,
+		"api": {
+			"root": "http://fhapi9.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "️🔘奶儿",
+		"nsfw": false,
+		"api": {
+			"root": "https://www.gdlsp.com",
+			"path": "/api/json.php"
+		},
+		"status": true
+	},
+	{
+		"name": "AIvin|AV",
+		"nsfw": true,
+		"api": {
+			"root": "http://lbapiby.com",
+			"path": "/api.php/provide/vod/at/json"
+		},
+		"status": true
+	},
+	{
+		"name": "️🔘雪人",
+		"nsfw": false,
+		"api": {
+			"root": "https://www.xrbsp.com",
+			"path": "/api/json.php"
+		},
+		"status": true
+	},
+	{
+		"name": "番号资源",
+		"nsfw": true,
+		"api": {
+			"root": "http://fhapi9.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "速博资源",
+		"nsfw": false,
+		"api": {
+			"root": "https://subocaiji.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "飘零影院",
+		"nsfw": true,
+		"api": {
+			"root": "https://p2100.net",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "️🔘米色",
+		"nsfw": true,
+		"api": {
+			"root": "https://www.msnii.com",
+			"path": "/api/json.php"
+		},
+		"status": true
+	},
+	{
+		"name": "️🔘皮革",
+		"nsfw": false,
+		"api": {
+			"root": "https://www.pgxdy.com",
+			"path": "/api/json.php"
+		},
+		"status": true
+	},
+	{
+		"name": "湿乐园",
+		"nsfw": true,
+		"api": {
+			"root": "https://xxavs.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "📛挺好┃红牛.云播",
+		"nsfw": false,
+		"api": {
+			"root": "https://www.hongniuzy2.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "非凡资源",
+		"nsfw": false,
+		"api": {
+			"root": "http://cj.ffzyapi.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "光速☆资源",
+		"nsfw": false,
+		"api": {
+			"root": "https://api.guangsuapi.com",
+			"path": "/api.php/provide/vod/from/gsm3u8/"
+		},
+		"status": true
+	},
+	{
+		"name": "️🔘天天",
+		"nsfw": true,
+		"api": {
+			"root": "http://bttcj.com",
+			"path": "/inc/sapi.php"
+		},
+		"status": true
+	},
+	{
+		"name": "️🐯乐播",
+		"nsfw": true,
+		"api": {
+			"root": "https://lbapi9.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "鲨鱼资源|AV",
+		"nsfw": true,
+		"api": {
+			"root": "https://shayuapi.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "精品资源|AV",
+		"nsfw": true,
+		"api": {
+			"root": "https://www.jingpinx.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "1080资源库(切)",
+		"nsfw": false,
+		"api": {
+			"root": "https://api.1080zyku.com",
+			"path": "/inc/api_mac10.php"
+		},
+		"status": true
+	},
+	{
+		"name": "奥斯卡资源|AV",
+		"nsfw": true,
+		"api": {
+			"root": "https://aosikazy.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "卧龙|点播",
+		"nsfw": false,
+		"api": {
+			"root": "https://collect.wolongzyw.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "色猫资源",
+		"nsfw": false,
+		"api": {
+			"root": "https://caiji.semaozy.net",
+			"path": "/inc/apijson_vod.php"
+		},
+		"status": true
+	},
+	{
+		"name": "牛牛|点播",
+		"nsfw": false,
+		"api": {
+			"root": "https://api.niuniuzy.me",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "最大资源",
+		"nsfw": true,
+		"api": {
+			"root": "http://zuidazy.me",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "闪电☆资源",
+		"nsfw": false,
+		"api": {
+			"root": "https://sdzyapi.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "魔都|点播",
+		"nsfw": false,
+		"api": {
+			"root": "https://caiji.moduapi.cc",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "无尽资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://api.wujinapi.me",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "飘零|点播",
+		"nsfw": true,
+		"api": {
+			"root": "https://p2100.net",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "91视频",
+		"nsfw": true,
+		"api": {
+			"root": "https://91av.cyou",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "360|点播",
+		"nsfw": false,
+		"api": {
+			"root": "https://360zy.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "富二代资源",
+		"nsfw": true,
+		"api": {
+			"root": "http://f2dcj6.com",
+			"path": "/sapi"
+		},
+		"status": true
+	},
+	{
+		"name": "成人18+",
+		"nsfw": true,
+		"api": {
+			"root": "http://91md.me",
+			"path": "/api.php/provide/vod"
+		},
+		"status": true
+	},
+	{
+		"name": "️🔘当初",
+		"nsfw": true,
+		"api": {
+			"root": "http://f2dcj6.com",
+			"path": "/sapi/"
+		},
+		"status": true
+	},
+	{
+		"name": "橘猫资源(丝袜)",
+		"nsfw": true,
+		"api": {
+			"root": "https://to.to-long.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "红牛",
+		"nsfw": false,
+		"api": {
+			"root": "https://www.hongniuzy2.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "金鹰资源",
+		"nsfw": false,
+		"api": {
+			"root": "https://jyzyapi.com",
+			"path": "/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "最大|点播",
+		"nsfw": true,
+		"api": {
+			"root": "http://zuidazy.me",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "️🔘番号",
+		"nsfw": true,
+		"api": {
+			"root": "http://fhapi9.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "️🔘白嫖",
+		"nsfw": true,
+		"api": {
+			"root": "https://www.kxgav.com",
+			"path": "/api/json.php"
+		},
+		"status": true
+	},
+	{
+		"name": "量子资源",
+		"nsfw": false,
+		"api": {
+			"root": "http://cj.lziapi.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "U酷资源",
+		"nsfw": false,
+		"api": {
+			"root": "https://api.ukuapi.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "📛挺好┃卧龙.云播",
+		"nsfw": false,
+		"api": {
+			"root": "https://collect.wolongzyw.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "无尽|点播",
+		"nsfw": true,
+		"api": {
+			"root": "https://api.wujinapi.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "樱花|点播",
+		"nsfw": false,
+		"api": {
+			"root": "https://m3u8.apiyhzy.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "索尼|点播",
+		"nsfw": true,
+		"api": {
+			"root": "https://suoniapi.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "📛挺好┃新浪.云播",
+		"nsfw": false,
+		"api": {
+			"root": "http://api.xinlangapi.com",
+			"path": "/xinlangapi.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "新浪|点播",
+		"nsfw": false,
+		"api": {
+			"root": "https://api.xinlangapi.com",
+			"path": "/xinlangapi.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "️极速┃资源",
+		"nsfw": false,
+		"api": {
+			"root": "https://jszyapi.com",
+			"path": "/api.php/provide/vod/at/json"
+		},
+		"status": true
+	},
+	{
+		"name": "暴风资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://bfzyapi.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "滴滴资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://api.ddapi.cc",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "红牛|点播",
+		"nsfw": false,
+		"api": {
+			"root": "https://www.hongniuzy2.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "玉兔资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://apiyutu.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "爱坤资源",
+		"nsfw": false,
+		"api": {
+			"root": "https://ikunzyapi.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "华为吧|点播",
+		"nsfw": false,
+		"api": {
+			"root": "https://hw8.live",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "森林资源|AV",
+		"nsfw": true,
+		"api": {
+			"root": "https://slapibf.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "黑木耳|点播",
+		"nsfw": false,
+		"api": {
+			"root": "https://www.heimuer.tv",
+			"path": "/api.php/provide/vod"
+		},
+		"status": true
+	},
+	{
+		"name": "91md|AV",
+		"nsfw": true,
+		"api": {
+			"root": "https://91md.me",
+			"path": "/api.php/provide/vod/from/mdm3u8/"
+		},
+		"status": true
+	},
+	{
+		"name": "U酷|点播",
+		"nsfw": false,
+		"api": {
+			"root": "https://api.ukuapi.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "优异资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://a.uezy.pw",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "华为吧",
+		"nsfw": false,
+		"api": {
+			"root": "https://hw8.live",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "非凡|点播",
+		"nsfw": false,
+		"api": {
+			"root": "http://cj.ffzyapi.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "CK☆资源",
+		"nsfw": false,
+		"api": {
+			"root": "https://ckzy.me",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "辣椒资源|AV",
+		"nsfw": true,
+		"api": {
+			"root": "https://apilj.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "📛挺好┃非凡",
+		"nsfw": false,
+		"api": {
+			"root": "http://cj.ffzyapi.com",
+			"path": "/api.php/provide/vod/at/xml/"
+		},
+		"status": true
+	},
+	{
+		"name": "鸡坤资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://jkunzyapi.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "奥斯卡资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://aosikazy.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "量子|点播",
+		"nsfw": false,
+		"api": {
+			"root": "https://cj.lziapi.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"name": "成人09",
+		"nsfw": true,
+		"api": {
+			"root": "http://dadiapi.com",
+			"path": "/api.php"
+		},
+		"status": true
+	},
+	{
+		"name": "成人06",
+		"nsfw": true,
+		"api": {
+			"root": "http://apilj.com",
+			"path": "/api.php/provide/vod/at/json"
+		},
+		"status": true
+	},
+	{
+		"name": "玉兔资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://apiyutu.com",
+			"path": "/api.php/provide/vod/at/xml"
+		},
+		"status": true
+	},
+	{
+		"name": "★精品下(直连)",
+		"nsfw": true,
+		"api": {
+			"root": "https://www.jingpinx.com",
+			"path": "//api.php/provide/vod"
+		},
+		"status": true
+	},
+	{
+		"name": "辣椒(FQ)",
+		"nsfw": true,
+		"api": {
+			"root": "https://apilj.com",
+			"path": "/api.php/provide/vod/at/json"
+		},
+		"status": true
+	},
+	{
+		"name": "成人15",
+		"nsfw": true,
+		"api": {
+			"root": "http://api.11bat.com",
+			"path": "/api.php/provide/vod/at/xml"
+		},
+		"status": true
+	},
+	{
+		"name": "♥155(直连)",
+		"nsfw": true,
+		"api": {
+			"root": "https://155api.com",
+			"path": "/api.php/provide/vod"
+		},
+		"status": true
+	},
+	{
+		"name": "★黄瓜(直连)",
+		"nsfw": true,
+		"api": {
+			"root": "https://www.avre06.com",
+			"path": "/api.php/provide/vod"
+		},
+		"status": true
+	},
+	{
+		"name": "★草榴(直连)",
+		"nsfw": true,
+		"api": {
+			"root": "https://www.caoliuzyw.com",
+			"path": "/api.php/provide/vod"
+		},
+		"status": true
+	},
+	{
+		"name": "成人16",
+		"nsfw": false,
+		"api": {
+			"root": "https://api.maozyapi.com",
+			"path": "/inc/apijson_vod.php"
+		},
+		"status": true
+	},
+	{
+		"name": "🈵成人影视5",
+		"nsfw": true,
+		"api": {
+			"root": "https://lbapi9.com",
+			"path": "/api.php/provide/vod/at/json/"
+		},
+		"status": true
+	}
     // 下面是一些成人内容的API源，默认隐藏，使用本项目浏览黄色内容违背项目初衷
     // 互联网上传播的色情内容将人彻底客体化、工具化，是性别解放和人类平等道路上的巨大障碍。
     // 这些黄色影片是资本主义父权制压迫的最恶毒体现，它将暴力和屈辱商品化，践踏人的尊严，对受害者造成无法弥愈的伤害，并毒害社会关系。
