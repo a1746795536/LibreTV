@@ -1,24 +1,24 @@
-名字: 同步上游
+name: Sync Upstream
 
-在:
-日程安排:
-    - 时间单位: "0 3 * * *"
-工作流_调度:
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
 
-许可:
-内容: 写
+permissions:
+  contents: write
 
-工作:
-同步:
-连续运行: Ubuntu-最新版
-步伐:
-      - 使用: 动作/签出@v4
-随着:
-提取深度: 0
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - 名字: 添加上游
-奔跑: |
-git远程添加上游https://github.com/LibreSpark/LibreTV.git
-git获取上游
-git合并上游/主要-允许-不相关-历史-m "🔄从上游同步"
-git推送原点主
+      - name: Add upstream
+        run: |
+          git remote add upstream https://github.com/LibreSpark/LibreTV.git
+          git fetch upstream
+          git merge upstream/main --allow-unrelated-histories -m "🔄 Sync from upstream"
+          git push origin main
