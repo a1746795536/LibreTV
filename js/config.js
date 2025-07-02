@@ -15,7 +15,7 @@ const PASSWORD_CONFIG = {
 const SITE_CONFIG = {
     name: '小胡TV',
     url: 'https://libretv.is-an.org',
-    description: '自己瞎捣鼓的在线视频搜索与观看平台',
+    description: '自己瞎捣鼓的平台',
     logo: 'image/logo.png',
     version: '1.0.3'
 };
@@ -480,7 +480,371 @@ const API_SITES = {
         name: '️🔘雪人',
         adult: false
     },
-   
+    fanHaoZiYuan2: {
+        api: 'http://fhapi9.com/api.php/provide/vod/',
+        name: '番号资源',
+        adult: true
+    },
+    suBoZiYuan: {
+        api: 'https://subocaiji.com/api.php/provide/vod/',
+        name: '速博资源',
+        adult: false
+    },
+    piaoLingYingYuan: {
+        api: 'https://p2100.net/api.php/provide/vod/',
+        name: '飘零影院',
+        adult: true
+    },
+    miSe: {
+        api: 'https://www.msnii.com/api/json.php',
+        name: '️🔘米色',
+        adult: true
+    },
+    piGe: {
+        api: 'https://www.pgxdy.com/api/json.php',
+        name: '️🔘皮革',
+        adult: false
+    },
+    shiLeYuan: {
+        api: 'https://xxavs.com/api.php/provide/vod/',
+        name: '湿乐园',
+        adult: true
+    },
+    hongNiuYunBo: {
+        api: 'https://www.hongniuzy2.com/api.php/provide/vod/',
+        name: '📛挺好┃红牛.云播',
+        adult: false
+    },
+    feiFanZiYuan: {
+        api: 'http://cj.ffzyapi.com/api.php/provide/vod/',
+        name: '非凡资源',
+        adult: false
+    },
+    guangSuZiYuan: {
+        api: 'https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/',
+        name: '光速☆资源',
+        adult: false
+    },
+    tianTian: {
+        api: 'http://bttcj.com/inc/sapi.php',
+        name: '️🔘天天',
+        adult: true
+    },
+    leBo: {
+        api: 'https://lbapi9.com/api.php/provide/vod/',
+        name: '️🐯乐播',
+        adult: true
+    },
+    shayuZiYuan: {
+        api: 'https://shayuapi.com/api.php/provide/vod/',
+        name: '鲨鱼资源|AV',
+        adult: true
+    },
+    jingPinZiYuan: {
+        api: 'https://www.jingpinx.com/api.php/provide/vod/',
+        name: '精品资源|AV',
+        adult: true
+    },
+    yiLingBaZiYuanKu: {
+        api: 'https://api.1080zyku.com/inc/api_mac10.php',
+        name: '1080资源库(切)',
+        adult: false
+    },
+    aoSiKaZiYuan: {
+        api: 'https://aosikazy.com/api.php/provide/vod/',
+        name: '奥斯卡资源|AV',
+        adult: true
+    },
+       woLongDianBo: {
+        api: 'https://collect.wolongzyw.com/api.php/provide/vod/',
+        name: '卧龙|点播',
+        adult: false
+    },
+    seMaoZiYuan: {
+        api: 'https://caiji.semaozy.net/inc/apijson_vod.php',
+        name: '色猫资源',
+        adult: false
+    },
+    niuNiuDianBo: {
+        api: 'https://api.niuniuzy.me/api.php/provide/vod/',
+        name: '牛牛|点播',
+        adult: false
+    },
+    zuiDaZiYuan: {
+        api: 'http://zuidazy.me/api.php/provide/vod/',
+        name: '最大资源',
+        adult: true
+    },
+    shanDianZiYuan: {
+        api: 'https://sdzyapi.com/api.php/provide/vod/',
+        name: '闪电☆资源',
+        adult: false
+    },
+    moDuDianBo: {
+        api: 'https://caiji.moduapi.cc/api.php/provide/vod/',
+        name: '魔都|点播',
+        adult: false
+    },
+    wuJinZiYuan: {
+        api: 'https://api.wujinapi.me/api.php/provide/vod/',
+        name: '无尽资源',
+        adult: true
+    },
+    piaoLingDianBo: {
+        api: 'https://p2100.net/api.php/provide/vod/',
+        name: '飘零|点播',
+        adult: true
+    },
+    jiuYiShiPin: {
+        api: 'https://91av.cyou/api.php/provide/vod/',
+        name: '91视频',
+        adult: true
+    },
+    sanLiuLingDianBo: {
+        api: 'https://360zy.com/api.php/provide/vod/',
+        name: '360|点播',
+        adult: false
+    },
+    fuErDaiZiYuan: {
+        api: 'http://f2dcj6.com/sapi',
+        name: '富二代资源',
+        adult: true
+    },
+    chengRen18: {
+        api: 'http://91md.me/api.php/provide/vod',
+        name: '成人18+',
+        adult: true
+    },
+    dangChu: {
+        api: 'http://f2dcj6.com/sapi/',
+        name: '️🔘当初',
+        adult: true
+    },
+    juMaoZiYuan: {
+        api: 'https://to.to-long.com/api.php/provide/vod/',
+        name: '橘猫资源(丝袜)',
+        adult: true
+    },
+    hongNiu: {
+        api: 'https://www.hongniuzy2.com/api.php/provide/vod/',
+        name: '红牛',
+        adult: false
+    },
+    jinYingZiYuan2: {
+        api: 'https://jyzyapi.com/provide/vod/',
+        name: '金鹰资源',
+        adult: false
+    },
+    zuiDaDianBo: {
+        api: 'http://zuidazy.me/api.php/provide/vod/',
+        name: '最大|点播',
+        adult: true
+    },
+    fanHao: {
+        api: 'http://fhapi9.com/api.php/provide/vod/',
+        name: '️🔘番号',
+        adult: true
+    },
+    baiPiao: {
+        api: 'https://www.kxgav.com/api/json.php',
+        name: '️🔘白嫖',
+        adult: true
+    },
+    liangZi: {
+        api: 'http://cj.lziapi.com/api.php/provide/vod/',
+        name: '量子资源',
+        adult: false
+    },
+    ukuZiYuan2: {
+        api: 'https://api.ukuapi.com/api.php/provide/vod/',
+        name: 'U酷资源',
+        adult: false
+    },
+    woLongYunBo: {
+        api: 'https://collect.wolongzyw.com/api.php/provide/vod/',
+        name: '📛挺好┃卧龙.云播',
+        adult: false
+    },
+    wuJinDianBo: {
+        api: 'https://api.wujinapi.com/api.php/provide/vod/',
+        name: '无尽|点播',
+        adult: true
+    },
+    yingHuaDianBo: {
+        api: 'https://m3u8.apiyhzy.com/api.php/provide/vod/',
+        name: '樱花|点播',
+        adult: false
+    },
+    suoNiDianBo: {
+        api: 'https://suoniapi.com/api.php/provide/vod/',
+        name: '索尼|点播',
+        adult: true
+    },
+    xinLangYunBo: {
+        api: 'http://api.xinlangapi.com/xinlangapi.php/provide/vod/',
+        name: '📛挺好┃新浪.云播',
+        adult: false
+    },
+    xinLangDianBo: {
+        api: 'https://api.xinlangapi.com/xinlangapi.php/provide/vod/',
+        name: '新浪|点播',
+        adult: false
+    },
+    jiSuZiYuan: {
+        api: 'https://jszyapi.com/api.php/provide/vod/at/json',
+        name: '️极速┃资源',
+        adult: false
+    },
+    baoFengZiYuan: {
+        api: 'https://bfzyapi.com/api.php/provide/vod/',
+        name: '暴风资源',
+        adult: true
+    },
+    diDiZiYuan: {
+        api: 'https://api.ddapi.cc/api.php/provide/vod/',
+        name: '滴滴资源',
+        adult: true
+    },
+    hongNiuDianBo: {
+        api: 'https://www.hongniuzy2.com/api.php/provide/vod/',
+        name: '红牛|点播',
+        adult: false
+    },
+    yuTuZiYuan: {
+        api: 'https://apiyutu.com/api.php/provide/vod/',
+        name: '玉兔资源',
+        adult: true
+    },
+    aiKunZiYuan: {
+        api: 'https://ikunzyapi.com/api.php/provide/vod/',
+        name: '爱坤资源',
+        adult: false
+    },
+    huaWeiBa: {
+        api: 'https://hw8.live/api.php/provide/vod/',
+        name: '华为吧|点播',
+        adult: false
+    },
+    senLinZiYuan: {
+        api: 'https://slapibf.com/api.php/provide/vod/',
+        name: '森林资源|AV',
+        adult: true
+    },
+    heiMuEr: {
+        api: 'https://www.heimuer.tv/api.php/provide/vod',
+        name: '黑木耳|点播',
+        adult: false
+    },
+    jiuYiMaDou: {
+        api: 'https://91md.me/api.php/provide/vod/from/mdm3u8/',
+        name: '91md|AV',
+        adult: true
+    },
+    ukuDianBo: {
+        api: 'https://api.ukuapi.com/api.php/provide/vod/',
+        name: 'U酷|点播',
+        adult: false
+    },
+    youYiZiYuan: {
+        api: 'https://a.uezy.pw/api.php/provide/vod/',
+        name: '优异资源',
+        adult: true
+    },
+    huaWeiBa2: {
+        api: 'https://hw8.live/api.php/provide/vod/',
+        name: '华为吧',
+        adult: false
+    },
+    feiFanDianBo: {
+        api: 'http://cj.ffzyapi.com/api.php/provide/vod/',
+        name: '非凡|点播',
+        adult: false
+    },
+    cKZiYuan: {
+        api: 'https://ckzy.me/api.php/provide/vod/',
+        name: 'CK☆资源',
+        adult: false
+    },
+    liaoJiao: {
+        api: 'https://apilj.com/api.php/provide/vod/',
+        name: '辣椒资源|AV',
+        adult: true
+    },
+    feiFan: {
+        api: 'http://cj.ffzyapi.com/api.php/provide/vod/at/xml/',
+        name: '📛挺好┃非凡',
+        adult: false
+    },
+       jiKunZiYuan: {
+        api: 'https://jkunzyapi.com/api.php/provide/vod/',
+        name: '鸡坤资源',
+        adult: true
+    },
+    aoSiKaZiYuan: {
+        api: 'https://aosikazy.com/api.php/provide/vod/',
+        name: '奥斯卡资源',
+        adult: true
+    },
+    liangZiDianBo: {
+        api: 'https://cj.lziapi.com/api.php/provide/vod/',
+        name: '量子|点播',
+        adult: false
+    },
+    chengRen09: {
+        api: 'http://dadiapi.com/api.php',
+        name: '成人09',
+        adult: true
+    },
+    chengRen06: {
+        api: 'http://apilj.com/api.php/provide/vod/at/json',
+        name: '成人06',
+        adult: true
+    },
+    yuTuZiYuan: {
+        api: 'https://apiyutu.com/api.php/provide/vod/at/xml',
+        name: '玉兔资源',
+        adult: true
+    },
+    jingPinXia: {
+        api: 'https://www.jingpinx.com//api.php/provide/vod',
+        name: '★精品下(直连)',
+        adult: true
+    },
+    liaoJiaoFQ: {
+        api: 'https://apilj.com/api.php/provide/vod/at/json',
+        name: '辣椒(FQ)',
+        adult: true
+    },
+    chengRen15: {
+        api: 'http://api.11bat.com/api.php/provide/vod/at/xml',
+        name: '成人15',
+        adult: true
+    },
+    shiWuWu: {
+        api: 'https://155api.com/api.php/provide/vod',
+        name: '♥155(直连)',
+        adult: true
+    },
+    huangGua: {
+        api: 'https://www.avre06.com/api.php/provide/vod',
+        name: '★黄瓜(直连)',
+        adult: true
+    },
+    caoLiu: {
+        api: 'https://www.caoliuzyw.com/api.php/provide/vod',
+        name: '★草榴(直连)',
+        adult: true
+    },
+    chengRen16: {
+        api: 'https://api.maozyapi.com/inc/apijson_vod.php',
+        name: '成人16',
+        adult: false
+    },
+    chengRenYingShi5: {
+        api: 'https://lbapi9.com/api.php/provide/vod/at/json/',
+        name: '🈵成人影视5',
+        adult: true
+    },
     // 下面是一些成人内容的API源，默认隐藏，使用本项目浏览黄色内容违背项目初衷
     // 互联网上传播的色情内容将人彻底客体化、工具化，是性别解放和人类平等道路上的巨大障碍。
     // 这些黄色影片是资本主义父权制压迫的最恶毒体现，它将暴力和屈辱商品化，践踏人的尊严，对受害者造成无法弥愈的伤害，并毒害社会关系。
@@ -504,11 +868,11 @@ const API_SITES = {
     //     name: '百万资源',
     //     adult: true
     // },
-   souav: {
-         api: 'https://api.souavzy.vip',
-         name: 'souav资源',
-         adult: true
-     },
+    // souav: {
+    //     api: 'https://api.souavzy.vip',
+    //     name: 'souav资源',
+    //     adult: true
+    // },
     // r155: {
     //     api: 'https://155api.com',
     //     name: '155资源',
