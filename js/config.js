@@ -504,11 +504,11 @@ const API_SITES = {
     //     name: '百万资源',
     //     adult: true
     // },
-    // souav: {
-    //     api: 'https://api.souavzy.vip',
-    //     name: 'souav资源',
-    //     adult: true
-    // },
+   souav: {
+         api: 'https://api.souavzy.vip',
+         name: 'souav资源',
+         adult: true
+     },
     // r155: {
     //     api: 'https://155api.com',
     //     name: '155资源',
