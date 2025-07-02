@@ -13,9 +13,9 @@ const PASSWORD_CONFIG = {
 
 // 网站信息配置
 const SITE_CONFIG = {
-    name: 'LibreTV',
+    name: '小胡TV',
     url: 'https://libretv.is-an.org',
-    description: '免费在线视频搜索与观看平台',
+    description: '自己瞎捣鼓的在线视频搜索与观看平台',
     logo: 'image/logo.png',
     version: '1.0.3'
 };
@@ -109,14 +109,7 @@ const API_SITES = {
     ikun: {
         api: 'https://ikunzyapi.com/api.php/provide/vod',
         name: 'iKun资源'
-    },
-    testSource: {
-        api: 'https://www.example.com/api.php/provide/vod',
-        name: '空内容测试源',
-        adult: true
-https://blog.diggoo.xyz/feed/libretv-interface
-    },
-
+    },  
     baiPiao: {
         api: 'https://www.kxgav.com/api/xml.php',
         name: '*白嫖资源',
